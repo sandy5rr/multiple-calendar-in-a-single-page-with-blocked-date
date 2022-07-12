@@ -76,13 +76,13 @@ body {
   background-color: unset !important;
 }
 .blocked {
-  color: rgb(214, 214, 214);
+  Background-color: #00008B;
+  color: #fff;
 }
 .blocked:hover {
-  background-color: unset !important;
-  cursor: default !important;
+  background-color: #00008B !important;
   border: unset !important;
-  color: rgb(214, 214, 214) !important;
+  color: #fff !important;
 }
 
 .swap-both-ways {
