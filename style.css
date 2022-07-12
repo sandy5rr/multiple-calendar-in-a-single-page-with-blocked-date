@@ -1,0 +1,98 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.calendar {
+  width: auto;
+}
+
+.month {
+  width: 200px;
+}
+.yearcontrols {
+  margin-top: 15px;
+  border-bottom: solid 1px #ccc;
+}
+.backbuttonCol {
+  padding-top: 15px;
+}
+.nextbuttonCol {
+  padding-top: 15px;
+}
+.yearDisplay {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #00008B;
+}
+.calendar > .month {
+  /* width: calc(100% / 3); */
+  float: left;
+  padding: 5px;
+  border: 1px dashed #f9f9f9;
+  min-width: 300px;
+  max-width: 520px;
+}
+.monthname {
+  width: 100%;
+  text-align: center;
+  color: #00008B;
+  font-weight: bold;
+  font-size: 20px;
+}
+.weekdays {
+  width: calc(100% / 7);
+  float: left;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: lighter;
+  color: #9d9b9b;
+  font-size: 14px;
+}
+.day,
+.padding {
+  width: calc(100% / 7);
+  float: left;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+
+  /* border-radius: 50px;
+    background-color: #ccc; */
+}
+.Saturday,
+.Sunday {
+  color: #00008B;
+  font-weight: bold;
+}
+.day:hover {
+  border-radius: 3px;
+  background-color: #00008B;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #00008B;
+}
+.padding {
+  height: 15px;
+  background-color: unset !important;
+}
+.blocked {
+  color: rgb(214, 214, 214);
+}
+.blocked:hover {
+  background-color: unset !important;
+  cursor: default !important;
+  border: unset !important;
+  color: rgb(214, 214, 214) !important;
+}
+
+.swap-both-ways {
+  background-color: #f5d290;
+  border-top: 1px dashed #178a1f;
+  border-bottom: 1px dashed #178a1f;
+}
+.first-block {
+  border-radius: 50px 0 0 0 !important;
+}
+.last-block {
+  border-radius: 0 0 50px 0 !important;
+}
